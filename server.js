@@ -33,6 +33,7 @@ var server = http.createServer(function (request, response) {
         <h1>全世界我最帅</h1>
         </body>
         `)
+        response.write(`大长腿陈某人`)
         response.end()
     } else if (path === '/x') {
         response.statusCode = 200
